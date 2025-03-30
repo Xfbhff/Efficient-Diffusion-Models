@@ -4,7 +4,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Xfbhff/Efficient-Diffusion-Models.git)
 [![Last Commit](https://img.shields.io/github/last-commit/zzli2022/Awesome-System2-Reasoning-LLM)](https://github.com/zzli2022/System2-Reasoning-LLM)
 [![Contribution Welcome](https://img.shields.io/badge/Contributions-welcome-blue)]()
-
+![image](./assets/cover.jpg)
 <!-- omit in toc -->
 ## 📢 Updates
 
@@ -17,8 +17,17 @@ Survey from Principles to Practices](https://arxiv.org/abs/2410.11795)". Feel fr
 Welcome to the repository for our survey paper, "Efficient Diffusion Models: A Comprehensive
 Survey from Principles to Practices". This repository provides resources and updates related to our research. For a detailed introduction, please refer to [our survey paper](https://arxiv.org/abs/2410.11795).
 
-![image](./assets/cover.jpg)
+![image](./assets/timeline.png)
+The recent timeline of efficient DMs, covering core methods and the release of open-source and closed-source reproduction projects.
 
+![image](./assets/organization.png)
+This figure outlines the conceptual framework employed in our presentation of efficient diffusion models.
+
+![image](./assets/comparision.png)
+This figure compares the core features of mainstream diffusion-based generative models
+
+![image](./assets/adapters.jpg)
+This figure outline various adapters and their applications.
 <!-- omit in toc -->
 ## 📒 Table of Contents
 

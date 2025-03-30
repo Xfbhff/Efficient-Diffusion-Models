@@ -17,16 +17,7 @@ Survey from Principles to Practices](https://arxiv.org/abs/2410.11795)". Feel fr
 Welcome to the repository for our survey paper, "Efficient Diffusion Models: A Comprehensive
 Survey from Principles to Practices". This repository provides resources and updates related to our research. For a detailed introduction, please refer to [our survey paper](https://arxiv.org/abs/2410.11795).
 
-As one of the most popular and sought-after generative models in recent years, diffusion models have sparked the interests
-of many researchers and steadily shown excellent advantage in various generative tasks such as image synthesis, video generation, bioinformatics engineering, 3D scene rendering and multimodal generation, relying on their dense theoretical principles and reliable application actices. The remarkable success of these recent efforts on diffusion models comes largely from progressive design principles and efficient architecture, training, inference, and deployment methodologies.  However, there has not been a comprehensive
-and in-depth review to summarize these principles and practices to help the rapid understanding and application of diffusion models. In this survey, we provide a new efficiency-oriented perspective on these existing efforts, which mainly focuses on the profound principles and efficient practices in architecture designs, model training, fast inference and reliable deployment, to guide further theoretical research, algorithm migration and model application for new scenarios in a reader-friendly way.
-
-![image](./assets/develope.jpg)
-
-This image highlights the progression of AI systems, emphasizing the shift from rapid, intuitive approaches to deliberate, reasoning-driven models. It shows how AI has evolved to handle a broader range of real-world challenges.
-
-![image](./assets/timeline.png)
-The recent timeline of reasoning LLMs, covering core methods and the release of open-source and closed-source reproduction projects.
+![image](./assets/cover.jpg)
 
 <!-- omit in toc -->
 ## 📒 Table of Contents
@@ -41,7 +32,6 @@ The recent timeline of reasoning LLMs, covering core methods and the release of 
   - [Part 7: Discussion and Conclusion](#part-7-discussion-and-conclusion)
 
 ## Part 1: Introduction
-
 * Improving image generation with better captions [[Paper]](https://cdn.openai.com/papers/dall-e-3.pdf) ![](https://img.shields.io/badge/Computer_Science-2023-blue)
 * Plug-and-play diffusion features for text-driven image-to-image translation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Tumanyan_Plug-and-Play_Diffusion_Features_for_Text-Driven_Image-to-Image_Translation_CVPR_2023_paper.html) ![](https://img.shields.io/badge/CVPR-2023-blue)
 * Training-Free Structured Diffusion Guidance for Compositional Text-to-Image Synthesis [[Paper]](https://arxiv.org/abs/2212.05032) ![](https://img.shields.io/badge/arXiv-2022.12-red)
@@ -65,7 +55,6 @@ datasets [[Paper]](https://arxiv.org/abs/2311.15127) ![](https://img.shields.io/
 * Rerender a video: Zero-shot text-guided video-to-video translation [[Paper]](https://dl.acm.org/doi/abs/10.1145/3610548.3618160) ![](https://img.shields.io/badge/SIGGRAPH-2023-blue)
 * Dreamfusion: Text-to-3d using 2d diffusion [[Paper]](https://arxiv.org/abs/2209.14988) ![](https://img.shields.io/badge/ICLR-2022-blue)
 * Mvdream: Multi-view diffusion for 3d generation [[Paper]](https://arxiv.org/abs/2308.16512) ![](https://img.shields.io/badge/ICLR-2023-blue)
-
 * Magic3D: High-Resolution Text-to-3D Content Creation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Lin_Magic3D_High-Resolution_Text-to-3D_Content_Creation_CVPR_2023_paper.html) ![](https://img.shields.io/badge/SIGGRAPH-2023-blue)
 * Hifa: High-fidelity text-to-3d with advanced diffusion guidance [[Paper]](https://export.arxiv.org/abs/2305.18766v2) ![](https://img.shields.io/badge/arxiv-2023.05-red)
 * SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion [[Paper]](https://arxiv.org/abs/2403.12008) ![](https://img.shields.io/badge/arxiv-2024.03-red)
@@ -103,8 +92,8 @@ models [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Esser_Struc
 * Emergent abilities of large language models [[Paper]](https://arxiv.org/abs/2206.07682) ![](https://img.shields.io/badge/TMLR-2023-blue)
 * GPT-4 Technical Report[[Paper]](https://arxiv.org/abs/2303.08774) ![](https://img.shields.io/badge/arxiv-2023.03-red)
 * Video generation models as world simulators [[Online]](https://openai.com/index/video-generation-models-as-world-simulators/) ![](https://img.shields.io/badge/Online-2024-green)
-## Part 2: Efficient Diffusion Models: Foundational Principles
 
+## Part 2: Efficient Diffusion Models: Foundational Principles
 * Improved Denoising Diffusion Probabilistic Models [[Paper]](https://proceedings.mlr.press/v139/nichol21a.html) ![](https://img.shields.io/badge/ICML-2021-blue)
 * Score-Based Generative Modeling through Stochastic Differential Equations [[Paper]](https://arxiv.org/abs/2011.13456) ![](https://img.shields.io/badge/ICLR-2020-blue)
 * Taming Transformers for High-Resolution Image Synthesis[[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.html?ref=) ![](https://img.shields.io/badge/CVPR-2022-blue)
@@ -204,7 +193,6 @@ learning with a unified text-to-text transformer [[Paper]](https://www.jmlr.org/
 models [[Paper]](https://arxiv.org/abs/2309.10305) ![](https://img.shields.io/badge/arxiv-2023.09-red)
 * Llama: Open and efficient foundation language models [[Paper]](https://arxiv.org/abs/2302.13971) ![](https://img.shields.io/badge/arxiv-2023.02-red)
 * Llama 2: Open Foundation and Fine-Tuned Chat Models [[Paper]](https://arxiv.org/abs/2307.09288) ![](https://img.shields.io/badge/arxiv-2023.07-red)
-
 * GLM: General Language Model Pretraining with Autoregressive Blank Infilling[[Paper]](https://arxiv.org/abs/2103.10360) ![](https://img.shields.io/badge/arxiv-2021.03-red)
 ## Part 4: Efficient Training and Fine-Tuning
 * Delta Tuning: A Comprehensive Study of Parameter Efficient Methods for Pre-trained Language Models [[Paper]](https://arxiv.org/abs/2203.06904) ![](https://img.shields.io/badge/arxiv-2022.03-red)
@@ -268,6 +256,7 @@ Single image is enough for subject-driven generation [[Paper]](https://arxiv.org
 * Instantbooth: Personalized text-to-image generation without test-time finetuning [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_InstantBooth_Personalized_Text-to-Image_Generation_without_Test-Time_Finetuning_CVPR_2024_paper.pdf) ![](https://img.shields.io/badge/CVPR-2024-blue)
 * Blip: Bootstrapping language-image pre-training for unified vision-language understanding
 and generation[[Paper]](https://proceedings.mlr.press/v162/li22n.html) ![](https://img.shields.io/badge/ICML-2022-blue)
+
 ## Part 5: Efficient Sampling and Inference
 * Diffusion models: A comprehensive
 survey of methods and applications [[Paper]](https://dl.acm.org/doi/full/10.1145/3626235) ![](https://img.shields.io/badge/ACM_Computing_Surveys-2023-blue)
@@ -337,6 +326,7 @@ accurate post-training quantization for diffusion models [[Paper]](https://proce
 probabilistic models [[Paper]](https://d1wqtxts1xzle7.cloudfront.net/85545733/2202.09671v1-libre.pdf?1651768375=&response-content-disposition=inline%3B+filename%3DTruncated_Diffusion_Probabilistic_Models.pdf&Expires=1743308181&Signature=fBoqm4UudG7LeSQNcGpmHZVCvdhZ1kamcs8AZUpYJVYdiifqq3-YV~z-FcFVRvRx6bLBMzGEGjdV0EJx3Vgla~IXkdybqTBvEzHSd-gznpSr3OpUJRy2it4ZV0tJrlUT0Aaacbmh0EnIClKpRIjYfLH~r6Gy3RfeuMSEbsObB-YvsAp~-bZpuy-MdZjU4uayDbk8eQsfa3Rx4TwBm2oUnyNP3QvN9ibst8bu7FbcquowBgCTgqXMplD2bBLecs3Rco~o8hLfUvPyjgdcPkysJ9WmJP6RtzzQtNafINgX-jNCgDFArHkdL5CYfA3uzrIFSNkJXdyG37WpKFNSDd3B4Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) ![](https://img.shields.io/badge/arxiv-2022.02-red)
 * Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders[[Paper]](https://iclr.cc/virtual/2023/poster/12106) ![](https://img.shields.io/badge/ICLR-2023-blue)
 * A style-based generator architecture for generative adversarial networks[[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.pdf) ![](https://img.shields.io/badge/CVPR-2019-blue)
+
 ## Part 6: Efficient Deployment And Usage
 * Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via
  GPU-Aware Optimizations [[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Chen_Speed_Is_All_You_Need_On-Device_Acceleration_of_Large_Diffusion_CVPRW_2023_paper.pdf) ![](https://img.shields.io/badge/CVPR-2023-blue)
@@ -362,7 +352,6 @@ transformers via speculative decoding [[Paper]](https://proceedings.mlr.press/v2
 * Accelerating Large Language Model Decoding with Speculative Sampling [[Paper]](https://arxiv.org/abs/2302.01318) ![](https://img.shields.io/badge/arxiv-2023.02-red)
 * Speculative Diffusion Decoding: Accelerating Language Generation through Diffusion [[Paper]](https://arxiv.org/abs/2408.05636) ![](https://img.shields.io/badge/arxiv-2024.08-red)
 * T-stitch: Accelerating sampling in pretrained diffusion models with trajectory stitching [[Paper]](https://arxiv.org/html/2402.14167) ![](https://img.shields.io/badge/arxiv-2024.02-red)
-
 
 ## Citation
 If you find this work useful, welcome to cite us.

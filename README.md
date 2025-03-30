@@ -38,7 +38,7 @@ The recent timeline of reasoning LLMs, covering core methods and the release of 
   - [Part 4: Efficient Training and Fine-Tuning](#part-4-efficient-training-and-fine-tuning)
   - [Part 5: Efficient Sampling and Inference](#part-5-efficient-sampling-and-inference)
   - [Part 6: Efficient Deployment And Usage](#part-6-efficient-deployment-and-usage)
-  - [Part 7: Discussion and Conclusion](#part-7-discussion-conclusion)
+  - [Part 7: Discussion and Conclusion](#part-7-discussion-and-conclusion)
 
 ## Part 1: Introduction
 
@@ -348,7 +348,7 @@ patch pipeline parallelism for inference of diffusion transformer models[[Paper]
 * Asyncdiff:
 Parallelizing diffusion models by asynchronous denoising [[Paper]](https://arxiv.org/abs/2406.06911) ![](https://img.shields.io/badge/arxiv-2024.06-red)
 
-## Part 7: Conclusion
+## Part 7: Discussion and Conclusion
 * A Survey on Mixture of Experts [[Paper]](https://arxiv.org/abs/2407.06204) ![](https://img.shields.io/badge/arxiv-2024.07-red)
 * The evolution of
 mixture of experts: A survey from basics to breakthroughs [[Paper]](https://towardsai.net/p/machine-learning/the-evolution-of-mixture-of-experts-from-basics-to-breakthroughs#:~:text=This%20recently%20released%20study%20is%20a%20comprehensive%20survey,%28MoE%29%20models%20from%20foundational%20concepts%20to%20cutting-edge%20innovations.) ![](https://img.shields.io/badge/2024-blue)

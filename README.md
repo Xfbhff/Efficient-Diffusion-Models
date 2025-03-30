@@ -104,6 +104,7 @@ models [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Esser_Struc
 * GPT-4 Technical Report[[Paper]](https://arxiv.org/abs/2303.08774) ![](https://img.shields.io/badge/arxiv-2023.03-red)
 * Video generation models as world simulators [[Online]](https://openai.com/index/video-generation-models-as-world-simulators/) ![](https://img.shields.io/badge/Online-2024-green)
 ## Part 2: Efficient Diffusion Models: Foundational Principles
+
 * Improved Denoising Diffusion Probabilistic Models [[Paper]](https://proceedings.mlr.press/v139/nichol21a.html) ![](https://img.shields.io/badge/ICML-2021-blue)
 * Score-Based Generative Modeling through Stochastic Differential Equations [[Paper]](https://arxiv.org/abs/2011.13456) ![](https://img.shields.io/badge/ICLR-2020-blue)
 * Taming Transformers for High-Resolution Image Synthesis[[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.html?ref=) ![](https://img.shields.io/badge/CVPR-2022-blue)
@@ -119,6 +120,7 @@ for subject-driven generation [[Paper]](https://openaccess.thecvf.com/content/CV
 * All are worth words: A vit backbone for diffusion models [[Paper]](https://arxiv.org/abs/2209.12152) ![](https://img.shields.io/badge/arxiv-2022.09-red)
 
 ## Part 3: Mainstream Network Architectures
+
 * Denoising diffusion implicit models [[Paper]](https://arxiv.org/abs/2010.02502) ![](https://img.shields.io/badge/arxiv-2020.10-red)
 * Diffusion models beat gans on image synthesis[[Paper]](https://proceedings.neurips.cc/paper/2021/hash/49ad23d1ec9fa4bd8d77d02681df5cfa-Abstract.html) ![](https://img.shields.io/badge/NeurIPS-2021-blue)
 * Photorealistic text-to-image diffusion models with deep language understanding [[Paper]](https://arxiv.org/abs/2205.11487) ![](https://img.shields.io/badge/arxiv-2022.05-red)
@@ -201,8 +203,9 @@ learning with a unified text-to-text transformer [[Paper]](https://www.jmlr.org/
 * Baichuan 2: Open large-scale language
 models [[Paper]](https://arxiv.org/abs/2309.10305) ![](https://img.shields.io/badge/arxiv-2023.09-red)
 * Llama: Open and efficient foundation language models [[Paper]](https://arxiv.org/abs/2302.13971) ![](https://img.shields.io/badge/arxiv-2023.02-red)
-*Llama 2: Open Foundation and Fine-Tuned Chat Models [[Paper]](https://arxiv.org/abs/2307.09288) ![](https://img.shields.io/badge/arxiv-2023.07-red)
-*GLM: General Language Model Pretraining with Autoregressive Blank Infilling[[Paper]](https://arxiv.org/abs/2103.10360) ![](https://img.shields.io/badge/arxiv-2021.03-red)
+* Llama 2: Open Foundation and Fine-Tuned Chat Models [[Paper]](https://arxiv.org/abs/2307.09288) ![](https://img.shields.io/badge/arxiv-2023.07-red)
+
+* GLM: General Language Model Pretraining with Autoregressive Blank Infilling[[Paper]](https://arxiv.org/abs/2103.10360) ![](https://img.shields.io/badge/arxiv-2021.03-red)
 ## Part 4: Efficient Training and Fine-Tuning
 * Delta Tuning: A Comprehensive Study of Parameter Efficient Methods for Pre-trained Language Models [[Paper]](https://arxiv.org/abs/2203.06904) ![](https://img.shields.io/badge/arxiv-2022.03-red)
 * Lora: Low-rank adaptation of large language models [[Paper]](https://arxiv.org/abs/2106.09685v1/1000) ![](https://img.shields.io/badge/arxiv-2021.06-red)
